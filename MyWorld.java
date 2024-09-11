@@ -14,5 +14,8 @@ public class MyWorld extends World
         
         Plane plane = new Plane();
         addObject(plane, 100, 100);
+        
+        Rocket rocket = new Rocket();
+        addObject(rocket,600,100);
     }
 }
